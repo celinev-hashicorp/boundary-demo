@@ -28,7 +28,7 @@ terraform {
     }
   }
   cloud {
-    organization = "swhashi"
+    organization = "celinev-hashicorp"
     workspaces {
       name = "boundary-demo-targets"
     }
