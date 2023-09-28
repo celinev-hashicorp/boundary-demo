@@ -47,7 +47,7 @@ data "aws_ami" "windows" {
 }
 
 data "tfe_outputs" "boundary_demo_init" {
-  organization = "swhashi"
+  organization = "celinev-hashicorp"
   workspace    = "boundary-demo-init"
 }
 
